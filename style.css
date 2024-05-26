@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+h2{
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.banner{
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    height: 700px;
+}
+.banner_contents{
+    margin-left: 5%;
+    padding-top: 25%;
+    height: 20%;
+}
+.banner_tittle{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.banner_discription{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 100px;
+}
+.banner_button{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.banner_button:hover{
+    color:black;
+    background-color:white;
+    transition: all 0.2s;
+} 
+.banner_fadeBottom{
+    margin-top: 220px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
+}
+.nav_logo{
+    width: 90px;
+    object-fit: contain;
+}
+.nav_icon{
+    width: 30px;
+    object-fit: contain;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav_black{
+    background-color: #111;
+}
+.row_poster{
+   width: 100%;
+   display: flex;
+   object-fit: contain;
+   max-height: 150px;
+   margin-right: 10px;
+   transition: transform 450ms;
+}
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row_poster:hover{
+    transform: scale(1.5);
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_poster::-webkit-scrollbar{
+    display:none;
+}
+.row_posterLarge{
+    max-height: 450px;
+}
+.row_posterLarge:hover{
+    transform: scale(1.7);
+}
+.row{
+    color: white;
+    margin-left: 20px;
+
+}
